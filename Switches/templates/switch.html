@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controls</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+
+<body class="gradient-custom"> 
+                <div class="page-title">
+                    <h3 class="text-light text-center">Switch Controls</h3>
+                    <p class="text-subtitle text-light text-center">Probeplus Innovative Solutions</p>
+                </div>
+                      <div class="row text-center justify-content-center m-0">
+                          <div class="col-11 col-lg-8 col-xl-6 ">
+                                              <div class="row text-center justify-content-center ">
+                                                  <div class="col-md-8">
+                                                      <div class="card">
+                                                          <div class="card-body">
+                                                              <div class="table-responsive">
+                                                                  <table class='table mb-0'>
+                                                                      <thead>
+                                                                          <tr>
+                                                                              <th>Switch</th>
+                                                                              <th>Status</th>
+                                                                              <th colspan="2" class= "text-align-center">Controls</th>
+                                                                              <!-- <th>OFF</th> -->
+                                                                          </tr>
+                                                                      </thead>
+                                                                      <tbody>
+                                                                          <tr>
+                                                                              <td>Socket 1</td>
+                                                                              <td>{{sw1s}}</td>
+                                                                              <td><a href="/sw1/on" class="btn btn-primary"> ON</a></td>
+                                                                              <td><a href="/sw1/off" class="btn btn-danger">OFF</a></td>
+                                                                          </tr>
+                                                                          <tr>
+                                                                            <td>Socket 2</td>
+                                                                            <td>{{sw2s}}</td>
+                                                                            <td><a href="/sw2/on" class="btn btn-primary"> ON</a></td>
+                                                                            <td><a href="/sw2/off" class="btn btn-danger">OFF</a></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                          <td>Socket 3</td>
+                                                                          <td>{{sw3s}}</td>
+                                                                          <td><a href="/sw3/on" class="btn btn-primary"> ON</a></td>
+                                                                          <td><a href="/sw3/off" class="btn btn-danger">OFF</a></td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Socket 4</td>
+                                                                        <td>{{sw4s}}</td>
+                                                                        <td><a href="/sw4/on" class="btn btn-primary"> ON</a></td>
+                                                                        <td><a href="/sw4/off" class="btn btn-danger">OFF</a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Socket 5</td>
+                                                                      <td>{{sw5s}}</td>
+                                                                      <td><a href="/sw5/on" class="btn btn-primary"> ON</a></td>
+                                                                      <td><a href="/sw5/off" class="btn btn-danger">OFF</a></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>Socket 6</td>
+                                                                    <td>{{sw6s}}</td>
+                                                                    <td><a href="/sw6/on" class="btn btn-primary"> ON</a></td>
+                                                                    <td><a href="/sw6/off" class="btn btn-danger">OFF</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td>Socket 7</td>
+                                                                  <td>{{sw7s}}</td>
+                                                                  <td><a href="/sw7/on" class="btn btn-primary"> ON</a></td>
+                                                                  <td><a href="/sw7/off" class="btn btn-danger">OFF</a></td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>Socket 8</td>
+                                                                <td>{{sw8s}}</td>
+                                                                <td><a href="/sw8/on" class="btn btn-primary"> ON</a></td>
+                                                                <td><a href="/sw8/off" class="btn btn-danger">OFF</a></td>
+                                                            </tr>
+                                                                      </tbody>
+                                                                  </table>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              </div>
+                                              </div>
+                                              </div>
+          
+</body>
+
+</html>
